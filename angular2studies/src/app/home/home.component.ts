@@ -11,7 +11,10 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  url = "globo.com";
+
   ngOnInit(): void {
+
     toast("...and Materialize works as well!")
   }
 }
