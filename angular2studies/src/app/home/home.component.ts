@@ -7,7 +7,10 @@ import { toast } from "angular2-materialize";
   styleUrls: ['./home.component.css']
 })
 
+
 export class HomeComponent {
+  
+nome : string='';
 
   constructor() { }
 

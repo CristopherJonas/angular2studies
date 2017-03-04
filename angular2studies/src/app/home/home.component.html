@@ -1,3 +1,22 @@
 <button class="waves-effect waves-light btn" (click)="onClick()">Test Button</button>
 
 <p>{{url}}</p>
+
+<!--<input
+ type="text"
+ [value]="nome"
+ (input) = "nome = $event.target.value"
+ >-->
+
+ <!--<input
+ type="text"
+ [ngModel]="nome"
+ (ngModelChange) = "nome = $event"
+ >-->
+
+  <input
+ type="text"
+ [(ngModel)]="nome"
+ >
+
+<p>Voce digitou {{ nome }}</p>
