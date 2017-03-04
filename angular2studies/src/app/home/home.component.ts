@@ -7,14 +7,13 @@ import { toast } from "angular2-materialize";
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
   constructor() { }
 
   url = "globo.com";
 
-  ngOnInit(): void {
-
-    toast("...and Materialize works as well!")
-  }
+ onClick(){
+    toast("...and Materialize works as well!");
+ };  
 }
