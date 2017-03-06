@@ -8,11 +8,15 @@ import { MaterializeModule } from 'angular2-materialize';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
+import { MenuLateralDirective } from './menu-lateral.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    MenuLateralComponent,
+    MenuLateralDirective
   ],
   imports: [
     BrowserModule,
